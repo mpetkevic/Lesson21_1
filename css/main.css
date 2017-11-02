@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Ubuntu', sans-serif; }
+
+header {
+  width: 100%;
+  height: 7vh; }
+  header .container img {
+    margin-top: 20px; }
+  header .container ul {
+    float: right; }
+    header .container ul li {
+      display: inline-block;
+      line-height: 7vh;
+      margin-right: 15px; }
+      header .container ul li a {
+        color: grey;
+        text-decoration: none;
+        text-transform: uppercase; }
+        header .container ul li a:hover {
+          color: black; }
+
+section {
+  width: 100%;
+  height: 78vh;
+  background-image: url(../img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  section .container {
+    height: 100%; }
+    section .container .content {
+      position: absolute;
+      width: 40%;
+      color: white;
+      top: 0;
+      left: 0; }
+      section .container .content h1 {
+        font-size: 44px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-top: 45%; }
+      section .container .content p {
+        font-size: 20px;
+        margin: 20px 0 40px; }
+      section .container .content span {
+        margin: 100px 0 50px;
+        display: block;
+        padding-right: 7px; }
+        section .container .content span a {
+          color: white;
+          margin-left: 0;
+          background: #ffce54;
+          padding: 5px 10px;
+          text-decoration: none;
+          text-transform: uppercase;
+          border-radius: 5px; }
+      section .container .content input {
+        width: 70%;
+        height: 40px;
+        padding-left: 20px;
+        outline: none;
+        border: none;
+        border-radius: 5px; }
+        section .container .content input::placeholder {
+          color: #bec2c8;
+          font-size: 14px; }
+      section .container .content a {
+        padding: 13px 10px 13px;
+        margin-left: 20px;
+        background: #77c344;
+        color: white;
+        border: none;
+        font-size: 14px;
+        border-radius: 5px;
+        text-decoration: none;
+        text-transform: uppercase; }
+    section .container #scene {
+      top: 20%;
+      height: 80vh;
+      z-index: 100; }
+      section .container #scene .cloud {
+        left: 30%; }
+      section .container #scene .cloud2 {
+        bottom: 40%; }
+      section .container #scene .cloud3 {
+        bottom: 35%;
+        right: 1%; }
+      section .container #scene .cloud4 {
+        top: 20%;
+        left: 30%; }
+  section .main {
+    position: relative; }
+    section .main img {
+      position: absolute;
+      right: 0;
+      bottom: 0; }
+
+footer {
+  width: 100%;
+  height: 15vh; }
+  footer .container {
+    height: 100%; }
+    footer .container .row {
+      height: 100%; }
+      footer .container .row .col {
+        height: 100%;
+        position: relative; }
+        footer .container .row .col img {
+          position: absolute;
+          top: 40%;
+          transform: translateY(-50%);
+          left: 50%;
+          transform: translateX(-50%); }
